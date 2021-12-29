@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script defer src=" https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+        <header class="header">
+            <button type="submit" class="btn header__btn-decor js-btn">участвовать</button>
+            <div class="header__information">
+                <div class="header__date">
+                   <p>7-9 апреля 2019</p>
+                   <p>Культурный центр «ЗИЛ»</p>
+                </div>
+                <div class="header__place">
+                    <p>ЗИЛ</p>
+                    <p>культурный</p>
+                    <p>центр</p>
+                </div>
+            </div>
+            <div class="container header-container">
+                <div class="header__decor"></div>
+                <div class="header__content header__body">
+                    <div class="header__nav">
+                        <a href="#" class="header__logo">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                        <nav class="header__menu" id="selectBackground">
+                            <ul class="header__list">
+                                <li class="header__item"><a href="#conf" class="header__link">о конференции</a></li>
+                                <li class="header__item"><a href="#spikers" class="header__link">спикеры</a></li>
+                                <li class="header__item"><a href="#program" class="header__link">программа</a></li>
+                                <li class="header__item"><a href="#slider" class="header__link">фотогалерея</a></li>
+                                <li class="header__item"><a href="#organisation" class="header__link">организаторы</a></li> 
+                            </ul>
+                        </nav>
+                        <button type="submit" class="btn header__btn header__btn-menu js-btn">принять участие</button>
+                    </div>
+                    <div class="header__promo" id="conf">
+                        <h1 class="header__title header__title-orange">ДИЗАЙН </h1>
+                        <h1 class="header__title header__title-white">КОНФЕРЕНЦИЯ</h1>
+                        <p class="header__description">Главное событие в дизайне и архитектуре</p>
+                        <button type="submit" class="btn header__btn header__btn-promo js-btn">принять участие</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="program">
+                <div class="container">
+                    <div class="content__title-decoration"></div>
+                    <div class="container__text">
+                        <h2 class="content__title content__title-orange">Опыт </h2>
+                        <h2 class="content__title content__title-black">практиков</h2>
+                        <p class="content__description">Узнайте, как эффективно <span class="br">работать</span><br> и <span class="not-br">зарабатывать</span><br>
+                        в сфере дизайна, визуализации, проектирования<br>
+                        и строительства</p>
+                    </div>
+                    <div class="content-essence">
+                        <img src="img/Group14.jpg" class="content-essence__img responsive" alt="img">
+                        <div class="content-essence__text">
+                            <h3 class="content-essence__title"><span class="br span-white">О чем</span> <br><span class="span-orange">молчат</span> дизайн-эксперты?</h3>
+                                <p class="content-essence__description">Спикеры поделятся <span class="br">практическими</span><br><span class="not-br"> знаниями,</span><br>
+                                    особенностями <span class="br">подхода,</span><br> секретами и фишками. </p>
+                                    <a href="#" class="content-essence__link">Каждый найдет свое.</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-slider">
+                <div class="container">
+                    <div class="content__slider-decoration"></div>
+                    <div class="container__text">
+                        <h2 class="content__title-slider" id="spikers">спикеры</h2>
+                    </div>
+                    <div class="slider" id="slider">
+                        <div class="slider__item">
+                            <img src="img/1.jpg" alt="Станислав Орехов">
+                            <h4 class="slider__title">Станислав <span class="slider__title-orange">Орехов</span></h4>
+                            <p class="slider__description">Дизайнер, визуализатор,<br> руководитель студии<br> d-e-s-i-g-n.ru</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/2.jpg" alt="Светлана Котлукова">
+                            <h4 class="slider__title">Светлана <span class="slider__title-orange">Котлукова</span></h4>
+                            <p class="slider__description">Маркетолог, руководитель PR-агентства<br> для дизайнеров «АрхДиалог»<br> d-e-s-i-g-n.ru</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/3.jpg" alt="Максим Вересов">
+                            <h4 class="slider__title">Максим <span class="slider__title-orange">Вересов</span></h4>
+                            <p class="slider__description">Архитектор, строитель, руководитель компании<br> деревянного строительства<br> d-e-s-i-g-n.ru</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/4.jpg" alt="Максим Вересов">
+                            <h4 class="slider__title">Андрей <span class="slider__title-orange">Орехов</span></h4>
+                            <p class="slider__description">Дизайнер, визуализатор,<br> руководитель студии<br> d-e-s-i-g-n.ru</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/5.jpg" alt="Максим Вересов">
+                            <h4 class="slider__title">Станислав <span class="slider__title-orange">Орехов</span></h4>
+                            <p class="slider__description">Дизайнер, визуализатор,<br> руководитель студии<br> d-e-s-i-g-n.ru</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-form js-section" id="organisation">
+                <div class="container">
+                    <div class="form">
+                        <div class="form__contacts">
+                            <h2 class="form__title form__title-orange">принять</h2>
+                            <h2 class="form__title form__title-black">участие</h2>
+                            <form name="test" method="post" action="input1.php" class="ui-form">
+                                <div class="cool-input">
+                                   <input required minlength="10" type="text" id="name" name="name" class="cool-input__input"/>
+                                   <span class="cool-input__placeholder">Ваши имя и фамилия</span>
+                                </div>
+                                <div class="cool-input">
+                                   <input required type="text" id="company" name="company" class="cool-input__input"/>
+                                   <span class="cool-input__placeholder">Компания</span>
+                                </div>
+                                <div class="cool-input">
+                                   <input required type="email" id="email" name="email" class="cool-input__input"/>
+                                   <span class="cool-input__placeholder">E-mail</span>
+                                </div>
+                                <div class="cool-input">
+                                   <input required type="tel" id="tel" name="phone" class="cool-input__input"/>
+                                   <span class="cool-input__placeholder">Телефон</span>
+                                </div>
+                                <input required type="submit" class="form__btn" value="Зарегистрироваться">
+                            </form>
+                        </div>
+                        <div class="form__img">
+                           <img src="img/img-form.png" alt="form" class="responsive">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container footer-container">
+                <div class="footer__content">
+                    <div class="footer__nav">
+                        <a href="#" class="footer__logo">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                        <nav class="footer__menu" id="selectBackground">
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link"><svg class="icon" width="24" height="19.5"><use xlink:href="img/img.svg#Twitter"></use></svg></a></li>
+                                <li class="footer__item footer__item-before"><img src="img/before.png" alt="#" width="4" height="4"></li>
+                                <li class="footer__item"><a href="#" class="footer__link"><svg class="icon"  width="24" height="22.9"><use xlink:href="img/img.svg#LinkedIn"></use></svg></a></li>
+                                <li class="footer__item footer__item-before"><img src="img/before.png" alt="#" width="4" height="4"></li>
+                                <li class="footer__item"><a href="#" class="footer__link"><svg class="icon" width="13" height="24"><use xlink:href="img/img.svg#Facebook"></use></svg></a></a></li>
+                                <li class="footer__item footer__item-before"><img src="img/before.png" alt="#" width="4" height="4"></li>
+                                <li class="footer__item"><a href="#" class="footer__link"><svg class="icon"  width="24" height="16.9"><use xlink:href="img/img.svg#Youtube"></use></svg></a></li>
+                                <li class="footer__item footer__item-before"><img src="img/before.png" alt="#" width="4" height="4"></li>
+                                <li class="footer__item"><a href="#" class="footer__link"><svg class="icon" width="24" height="24"><use xlink:href="img/img.svg#inst"></use></svg></a></li> 
+                            </ul>
+                        </nav>
+                        <div class="footer__site"><a href="sale@designconference.ru">sale@designconference.ru</a></div>
+                        <div class="footer__telephon"><a href="tel:+79774906667">+7 (977) 490-66-67</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
